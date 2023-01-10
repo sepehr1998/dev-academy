@@ -13,5 +13,12 @@ import javax.servlet.MultipartConfigElement;
  */
 @ConfigurationProperties(prefix = "application", ignoreUnknownFields = false)
 public class ApplicationProperties {
-    
+
+    //TODO add values to the properties later
+
+    @Bean
+    public MultipartConfigElement multipartConfigElement(){
+        return new MultipartConfigElement("C:\\temp\\" ,
+            1073741824L,1073741824L,65535);
+    }
 }
