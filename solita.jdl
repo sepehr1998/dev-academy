@@ -1,0 +1,19 @@
+entity Journey {
+  distance Double required
+  duration Duration required
+}
+entity Station {
+  name String required
+  address String
+  startedFrom Long
+  endingIn Long
+}
+relationship ManyToOne {
+  Journey{departureStation(name) required} to Station
+  Journey{returnStation(name) required} to Station
+}
+
+dto Journey, Station with mapstruct
+paginate Journey, Station with pagination
+service Journey, Station with serviceImpl
+filter Journey, Station
