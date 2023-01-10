@@ -1,5 +1,9 @@
 <template>
   <div>
+    <b-dropdown-item to="/journey">
+      <font-awesome-icon icon="asterisk" />
+      <span>Journey</span>
+    </b-dropdown-item>
     <b-dropdown-item to="/station">
       <font-awesome-icon icon="asterisk" />
       <span>Station</span>
