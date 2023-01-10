@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20221224163925",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "station",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "startedFrom",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "endingIn",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Station",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
