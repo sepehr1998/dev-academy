@@ -1,0 +1,41 @@
+{
+  "applications": "*",
+  "changelogDate": "20221224163924",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "journey",
+  "fields": [
+    {
+      "fieldName": "distance",
+      "fieldType": "Double",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "duration",
+      "fieldType": "Duration",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Journey",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "station",
+      "relationshipName": "departureStation",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "station",
+      "relationshipName": "returnStation",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    }
+  ],
+  "service": "serviceImpl"
+}
