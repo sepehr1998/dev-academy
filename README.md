@@ -1,9 +1,13 @@
 # solita
 
 Enter this IP and login with the following credentials:
+
 http://168.138.31.55:8080/
+
 username: admin
+
 password: admin
+
 Find the journeys and stations under entities menu.
 
 ## Project Structure
