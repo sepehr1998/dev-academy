@@ -1,5 +1,11 @@
 # solita
 
+Enter this IP and login with the following credentials:
+http://168.138.31.55:8080/
+username: admin
+password: admin
+Find the journeys and stations under entities menu.
+
 ## Project Structure
 
 Node is required for generation and recommended for development. `package.json` is always generated for a better development experience with prettier, commit hooks, scripts and so on.
