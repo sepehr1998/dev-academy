@@ -1,4 +1,10 @@
-# solita
+# Welcome!
+
+The purpose of this project is to fetch and list the journeys and stations for rental bicycles in a specific city. I've created the UI of this project using Vue.JS and used JHipster to create the back-end and APIs. You can browse this project on the URL that is provided in the next section. 
+
+This is a very complicated front-end project with different tools and techniques used. In this web application, you can see the list of journeys and stations. Filter, sort and search them. Create and update your user profile. Choose avatar and basically everything that you can do with your user account in a modern website. Also, you can view, edit or delete each journey or station. The design is fully responsive and the performance and handling exceptions is done at it's best. 
+
+# How to browse the project
 
 Enter this IP and login with the following credentials:
 
@@ -9,6 +15,15 @@ username: admin
 password: admin
 
 Find the journeys and stations under entities menu.
+
+## Key Features
+
+- See the list of journeys and stations
+- Create, edit, view or delete each station and journey
+- Sort journey and stations based on various parameters
+- Filter journeys by the pickup point or drop point
+- Create and manage user account
+- Responsive Design
 
 ## Project Structure
 
